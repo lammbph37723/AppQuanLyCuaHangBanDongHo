@@ -17,33 +17,38 @@
             android:layout_gravity="center"
             android:textAllCaps="true"
             android:textSize="30dp"
-            android:layout_margin="20dp"
+            android:layout_margin="20dp" />
 
-            />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
             android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp">
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="5dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/imgbtNo"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/icon_no"/>
+            </LinearLayout>
 
-            <ImageView
-                android:id="@+id/imgNo"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:src="@drawable/icon_no"/>
-
-            <ImageView
-                android:id="@+id/imgYes"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:gravity="end|right"
-                android:src="@drawable/icon_yes" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right">
+                <ImageButton
+                    android:id="@+id/imgbtYes"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/icon_yes"/>
+            </LinearLayout>
 
         </LinearLayout>
 
     </LinearLayout>
-
-
 
 </LinearLayout>
