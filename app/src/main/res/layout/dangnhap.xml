@@ -53,11 +53,11 @@
         <Button
             android:id="@+id/btnDangNhap"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="#F44336"
+            android:layout_height="65dp"
+            android:text="Đăng nhập"
+            android:textSize="20dp"
             android:textStyle="bold"
-            android:textColor="@color/white"
-            android:text="Đăng nhập"/>
+            android:backgroundTint="#D0FD0000"/>
     </LinearLayout>
 
 </LinearLayout>
